@@ -1,5 +1,6 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
 
+
 export const navlink = [
   {
     url: "/",
@@ -113,42 +114,42 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/port1.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port1.jpg?raw=true",
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port2.jpg?raw=true",
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port3.jpg?raw=true",
     name: "Brand",
     category: "development",
     title: "Brex Logo",
   },
   {
     id: 4,
-    cover: "../images/port/port4.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port4.jpg?raw=true",
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
   },
   {
     id: 5,
-    cover: "../images/port/port5.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port5.jpg?raw=true",
     name: "Brand",
     category: "design",
     title: "Brex Logo",
   },
   {
     id: 6,
-    cover: "../images/port/port6.jpg",
+    cover: "https://github.com/sunil9813/Alamin-Portfolio/blob/master/public/images/port/port6.jpg?raw=true",
     name: "Brand",
     category: "development",
     title: "Brex Logo",

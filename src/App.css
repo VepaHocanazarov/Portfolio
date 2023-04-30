@@ -256,5 +256,72 @@ section {
 
 /*----------------Counter--------------------*/
 
+/*----------------article--------------------*/
+
+article{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+article img{
+  width: 100%;
+  height: 100%;
+}
+
+article .box{
+  position: relative;
+  transition: 0.5s;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.overlay::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primaryColor);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+
+article .box:hover .overlay,
+article .box:hover .overlay::after{
+  opacity: 1;
+}
+
+.catButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+
+}
+
+.catButton button{
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+
+/*----------------article--------------------*/
+
 
 

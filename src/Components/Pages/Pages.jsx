@@ -5,6 +5,7 @@ import {Home} from "../home/Home"
 import { About } from "./About";
 import { Services } from "./Services";
 import { Counter } from "./Counter";
+import { Portfolio } from "./Portfolio";
 
 
 export const Pages = () => {
@@ -18,6 +19,7 @@ export const Pages = () => {
           <Route exact path="/about"  component={About} />
           <Route exact path="/services"  component={Services} />
           <Route exact path="/counter"  component={Counter} />
+          <Route exact path="/portfolio"  component={Portfolio} />
 
         </Switch>
       </Router>
