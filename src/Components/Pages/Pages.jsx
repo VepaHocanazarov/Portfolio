@@ -4,6 +4,7 @@ import { Header } from "../Common/Header";
 import {Home} from "../home/Home"
 import { About } from "./About";
 import { Services } from "./Services";
+import { Counter } from "./Counter";
 
 
 export const Pages = () => {
@@ -16,6 +17,7 @@ export const Pages = () => {
           <Route exact path="/"  component={Home} />
           <Route exact path="/about"  component={About} />
           <Route exact path="/services"  component={Services} />
+          <Route exact path="/counter"  component={Counter} />
 
         </Switch>
       </Router>

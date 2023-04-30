@@ -227,4 +227,34 @@ section {
 
 /*----------------services--------------------*/
 
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  height: 50vh;
+  place-items: center;
+  text-align: center;
+
+}
+
+/*----------------Counter--------------------*/
+
+.counter{
+  margin-top: 80px;
+  position: relative;
+
+}
+
+.hero.counter::after{
+  background-image: url("../public/images/some-facts-bg.png");
+  height: 50vh;
+}
+
+.counter h1{
+  margin: 0;
+  font-size: 30px;
+}
+
+/*----------------Counter--------------------*/
+
+
 
