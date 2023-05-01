@@ -7,6 +7,7 @@ import { Services } from "./Services";
 import { Counter } from "./Counter";
 import { Portfolio } from "./Portfolio";
 import { Testimonials } from "./Testimonials";
+import { Blog } from "./Blog";
 
 
 export const Pages = () => {
@@ -22,6 +23,7 @@ export const Pages = () => {
           <Route exact path="/counter"  component={Counter} />
           <Route exact path="/portfolio"  component={Portfolio} />
           <Route exact path="/testimonials"  component={Testimonials} />
+          <Route exact path="/blog"  component={Blog} />
 
         </Switch>
       </Router>

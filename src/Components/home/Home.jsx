@@ -5,6 +5,7 @@ import { Services } from "../Pages/Services";
 import { Counter } from "../Pages/Counter";
 import { Portfolio } from "../Pages/Portfolio";
 import { Testimonials } from "../Pages/Testimonials";
+import { Blog } from "../Pages/Blog";
 
 export const Home = () => {
   return (
@@ -12,9 +13,10 @@ export const Home = () => {
       <Hero />
       <About />
       <Services />
-      <Counter/>
-      <Portfolio/>
-      <Testimonials/>
+      <Counter />
+      <Portfolio />
+      <Testimonials />
+      <Blog />
     </>
   );
 };
