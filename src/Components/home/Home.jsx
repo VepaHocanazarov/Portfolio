@@ -6,6 +6,7 @@ import { Counter } from "../Pages/Counter";
 import { Portfolio } from "../Pages/Portfolio";
 import { Testimonials } from "../Pages/Testimonials";
 import { Blog } from "../Pages/Blog";
+import { Contact } from "../Pages/Contact";
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
       <Portfolio />
       <Testimonials />
       <Blog />
+      <Contact />
     </>
   );
 };
