@@ -459,3 +459,15 @@ footer i {
     grid-template-columns: repeat(2,1fr);
   }
 }
+
+@media screen and  (max-width:1200px){
+  .contact .flexsb,
+  .about .flex {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}

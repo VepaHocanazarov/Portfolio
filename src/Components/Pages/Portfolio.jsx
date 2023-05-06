@@ -10,6 +10,7 @@ export const Portfolio = () => {
   const [list, setList] = useState(portfolio);
   const [category, setCategory] = useState(allCategory);
   console.log(setCategory);
+  console.log(allCategory);
 
   const filterItems = (category) => {
     const newItems = portfolio.filter((item) => item.category === category);
@@ -23,20 +24,21 @@ export const Portfolio = () => {
     <>
       <article>
         <div className="container">
-            <Heading title = "Portfolio"  />
+          <Heading title="Portfolio" />
           <div className="catButton">
-            {category.map((category) => (
+            {category.map((category, i) => (
               <button
+                key={i}
                 className="primaryBtn"
-                onClick={() => filterItems(category)}
+                onClick={() => filterItems(category)} data-aos='zoom-out-down'
               >
                 {category}
               </button>
             ))}
           </div>
           <div className="content grid3">
-            {list.map((items) => (
-              <div className="box">
+            {list.map((items, i) => (
+              <div className="box" key={i} data-aos='fade-up'>
                 <div className="img">
                   <img src={items.cover} alt="" />
                 </div>
